@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+ Paleta de cores
+ verde: #49a09d
+ lilás: #5f2c82
+*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh; 
+}
+
+main{
+    
+}
