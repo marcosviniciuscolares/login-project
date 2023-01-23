@@ -20,5 +20,35 @@ body{
 }
 
 main{
-    
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+section#login > div#image{
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-iva-muškić-691710.jpg);
+    background-size: cover;
+    height: 200px;
+
+}
+
+
+section#login > div#form{
+    display: block;
+    padding: 12px;
+
 }
