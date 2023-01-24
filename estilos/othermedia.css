@@ -8,7 +8,7 @@
 
     section#login{
         width: 80vw;
-
+        height: 290px;
     }
 
     section#login > div#image{
@@ -30,16 +30,26 @@
 
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#image{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#form{
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#form > h1{
+        font-size: 2em;
+    }
+
+    div#form > p{
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
